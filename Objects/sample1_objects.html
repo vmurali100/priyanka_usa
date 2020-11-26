@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Creating An Object in literal way
+      var person = {
+        fname: "murali",
+        lname: "Krishna",
+      };
+
+      // How to add a property to An Object with .notation
+      person.email = "vmurali100@gmail.com";
+      person.address = "Bangalore";
+
+      //How to Add a Property with [] notation
+      var p = "population";
+      person[p] = "Karnataka";
+      person["language"] = "Telugu";
+
+      //iterating through ab Object
+      for (a in person) {
+        // document.write(person[a] + "<br>");
+        document.write(person[a] + "<br>");
+      }
+
+      console.log(person);
+      //   document.write(
+      //     person.language +
+      //       "<br>" +
+      //       person.lname +
+      //       "<br>" +
+      //       person.email +
+      //       "<br>" +
+      //       person.state
+      //   );
+    </script>
+  </body>
+</html>

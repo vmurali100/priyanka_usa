@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Constuctor Function
+      function Person(fname, lname, email) {
+        this.fname = fname;
+        this.lname = lname;
+        this.email = email;
+      }
+
+      var user = new Person("murali", "krishna", "krishna@gmai.com");
+      var user1 = new Person("Ram", "krishna", "ram@gmail.com");
+      user1.lname = "Kumar";
+
+      console.log(user);
+      console.log(user1);
+      //   var person1 = {
+      //     fname: "murali",
+      //     lname: "Krishna",
+      //   };
+
+      //   var person2 = person1;
+      //   var person3 = person2;
+
+      //   person2.fname = "Ram";
+      //   person3.lname = "Kumar";
+      //   console.log(person1);
+      //   console.log(person2);
+    </script>
+  </body>
+</html>
