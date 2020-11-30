@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var moniors = ["Dell", "HP", "Lenova", "LG", "Onida", "Acer"];
+      var numbers = [1, 2, 4, 5, 7, "ram", "krishna"];
+      //   document.write(moniors[0]);
+
+      //   moniors.push("Micro");
+      //   moniors.unshift("Micro");
+      //   moniors.splice(3, 0, "Micro");
+
+      //   moniors.pop();
+      //   moniors.shift();
+      //   moniors.splice(2, 1);
+      moniors.sort();
+      moniors.sort().reverse();
+
+      console.log(moniors);
+      //ES6 of Iterating Arrays
+      //   for (i = 0; i < moniors.length; i++) {
+      //     document.write(moniors[i]);
+      //   }
+      //   var newArray = [];
+      //   moniors.forEach(function (a, i, values) {
+      //     // document.write(a + "<br>");
+      //     // document.write(i + "<br>");
+      //     // document.write(values + "<br>");
+      //     newArray.push(a + " Monitor");
+      //   });
+
+      //Just for Iteration ..  for Each will never return Any thing
+      //   var newMapArray = moniors.forEach(function (val) {
+      //     return val + " Monitor";
+      //   });
+
+      //   console.log(newMapArray);
+
+      //   var newArray = moniors.map(function (val) {
+      //     return val + " Monitor";
+      //   });
+
+      //   console.log(newArray);
+
+      //Anonymous function
+      //   function (){}
+
+      //   var companies = moniors.find(function (val) {
+      //     return val.length == 2;
+      //   });
+
+      //   var companies = moniors.filter(function (val) {
+      //     return val.length == 2;
+      //   });
+      //   console.log(companies);
+
+      //   var check = moniors.some(function (val) {
+      //     return val.length >= 7;
+      //   });
+
+      //   var check = moniors.every(function (val) {
+      //     return val.length >= 2;
+      //   });
+
+      //   console.log(check);
+    </script>
+  </body>
+</html>
