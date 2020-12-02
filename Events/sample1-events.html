@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button onclick="sayHello()" id="" class="" name="">Click</button> -->
+    <!-- <button onmouseover="sayHello()" id="" class="" name="">Click</button> -->
+    <!-- <button onmouseout="sayHello()" id="" class="" name="">Click</button> -->
+    <button onclick="displayUserInfo()">Display User</button>
+
+    <button onclick="showAllMonitors()">Show All Monitors</button>
+    <script>
+      var person = {
+        fname: "murali",
+        lname: "Krishna",
+      };
+      var monitors = ["Dell", "HP", "Lenova", "LG", "Onida", "Acer"];
+
+      function displayUserInfo() {
+        document.write(person.fname + "<br>" + person.lname);
+      }
+      function sayHello() {
+        console.log("Hello world ffrom Javascript");
+      }
+
+      function showAllMonitors() {
+        monitors.forEach(function (monitor) {
+          document.write(monitor + "<br>");
+        });
+      }
+      //   document.onload(console.log("Hello from Onload"));
+    </script>
+  </body>
+</html>

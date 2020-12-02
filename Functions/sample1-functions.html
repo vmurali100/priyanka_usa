@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //creating Functions
+      function cleantheHouse() {
+        console.log("Hello World from cleantheHouse");
+      }
+
+      // Function Expression
+      var cleanHouse = function (myName) {
+        console.log(" Hello from cleanHouse " + myName);
+      }; // an ananymous function can be assigned to a variable
+
+      var cleanAllRooms = cleanHouse; // A named function also can assigned to a variable
+
+      //Excuting or Calling the Functions
+      cleantheHouse();
+      cleanHouse("Priyanka");
+      cleanAllRooms("Murali ");
+
+      //Creating a Function in ES5
+      function claculate(a, b) {
+        return a + b;
+      }
+      // Arrow Function or Fat Arrow Function
+      calculateNus = () => {};
+
+      console.log(claculate(2, 3));
+
+      console.log(claculate(2, "3"));
+      console.log(claculate(2, "Murali"));
+      console.log(claculate(2));
+    </script>
+  </body>
+</html>
