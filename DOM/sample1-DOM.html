@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="mobile">Mobile Number :</label>
+      <input type="text" id="mobile" name="mymobile" class="mobileclass" />
+      <br />
+      <br />
+      <button onclick="getData()" type="button">Get Mobile Number</button>
+    </form>
+    <script>
+      function getData() {
+        // var enteredData = document.querySelector("input").value;
+        // var enteredData = document.querySelectorAll("input")[0].value;
+        // var enteredData = document.getElementsByTagName("input")[0].value;
+        // var enteredData = document.getElementsByName("mymobile")[0].value;
+        // var enteredData = document.getElementsByClassName("mobileclass")[0]
+        //   .value;
+        var enteredData = document.getElementById("mobile").value;
+
+        console.log(enteredData);
+      }
+    </script>
+  </body>
+</html>
